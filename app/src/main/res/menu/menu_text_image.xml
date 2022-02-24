@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/edit_text"
+        android:title="@string/edit_text"
+        android:icon="@drawable/ic_receipt"
+        app:showAsAction="always"/>
+<item android:title="@string/create"
+    android:id="@+id/create_text"
+    app:showAsAction="always"/>
+</menu>

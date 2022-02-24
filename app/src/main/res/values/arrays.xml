@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- Creating arrays for the active and inactive dots-->
+	<array name="dotActive">
+		<item>@color/dotLightFirst</item>
+		<item>@color/dotLightSecond</item>
+		<item>@color/dotLightThird</item>
+		<item>@color/dotLightLast</item>
+	</array>
+
+	<array name="dotInactive">
+		<item>@color/dotDarkFirst</item>
+		<item>@color/dotDarkSecond</item>
+		<item>@color/dotDarkThird</item>
+		<item>@color/dotDarkLast</item>
+	</array>
+
+	<string-array name="locations_entries">
+        <item>Books (Default)</item>
+        <item>Created Pdfs</item>
+        <item>Downloaded </item>
+        <item>Received (Xender)</item>
+		<item>Chemical Engineering</item>
+    </string-array>
+
+    <string-array name="locations_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+		<item>4</item>
+    </string-array>
+
+	<string-array name="font_entries">
+        <item>15</item>
+		<item>16</item>
+		<item>17</item>
+		<item>18</item>
+		<item>19</item>
+		<item>20</item>
+		<item>21</item>
+		<item>22</item>
+		<item>23</item>
+		<item>24</item>
+		<item>25</item>
+		<item>26</item>
+		<item>27</item>
+		<item>28</item>
+		<item>29</item>
+		<item>30</item>
+		<item>31</item>
+		<item>32</item>
+		<item>33</item>
+		<item>34</item>
+		<item>35</item>
+		<item>36</item>
+		<item>37</item>
+		<item>38</item>
+		<item>39</item>
+		<item>40</item>
+		<item>41</item>
+		<item>42</item>
+		<item>43</item>
+		<item>44</item>
+		<item>45</item>
+		<item>46</item>
+		<item>47</item>
+		<item>48</item>
+		<item>49</item>
+		<item>50</item>
+    </string-array>
+
+
+	<string-array name="area">
+		<item>Acre</item> 
+		<item>Are</item>
+		<item>Barn</item>  
+		<item>Board</item> 
+		<item>Circular</item>
+		<item>Cuerda</item>  
+		<item>Dunam</item> 
+		<item>Guntha</item>  
+		<item>Hectare</item>  
+		<item>Hide</item> 
+		<item>Ping</item>  
+		<item>Shed</item>
+		<item>Square_foot</item>
+		<item>Square_inch</item>
+		<item>Square_kilometre</item> 
+		<item>Square_metre</item>
+		<item>Square_mile</item>  
+		<item>Square_yard</item> 
+		<item>Stremma</item>
+		<item>Township</item>
+		<item>Yardland</item>
+	</string-array>
+
+	<string-array name="density">
+		<item>Gram_per_millilitre</item>
+		<item>Kilogram_per_cubic_metre</item>
+		<item>Kilogram_per_litre</item>
+		<item>Ounce_per_cubic_foot</item>
+		<item>Ounce_per_cubic_inch</item>
+		<item>Ounce_per_gallon</item>
+		<item>Pound_per_cubic_foot</item>
+		<item>Pound_per_cubic_inch</item>
+		<item>Pound_per_gallon</item>
+		<item>Slug_per_cubic_foot</item>
+    </string-array>
+
+	<string-array name="energy">
+		<item>Barrel_of_oil_equivalent</item>
+		<item>British_thermal_unit</item>
+		<item>Calorie</item>
+		<item>Celsius_heat_unit</item>
+		<item>Cubic_centimetre_of_atmosphere</item>
+		<item>Cubic_foot_of_atmosphere</item>
+		<item>Cubic_foot_of_natural_gas</item>
+		<item>Cubic_yard_of_atmosphere</item>
+		<item>Electronvolt</item>
+		<item>Erg</item>
+		<item>Foot_pound_force</item>
+		<item>Foot_poundal</item>
+		<item>Gallon_atmosphere</item>
+		<item>Hartree</item>
+		<item>Horsepower_hour</item>
+		<item>Inch_pound_force</item>
+		<item>Joule</item>
+		<item>Kilocalorie</item>
+        <item>Kilogrammeter</item>
+		<item>Kilojoule</item>
+		<item>Kilowatt_hour</item>
+		<item>Litre_atmosphere</item>
+		<item>Quad</item>
+		<item>Rydberg</item>
+		<item>Therm_EC</item>
+		<item>Therm_US</item>
+		<item>Thermie</item>
+		<item>Ton_of_coal_equivalent</item>
+		<item>Tonne_of_oil_equivalent</item>
+		<item>Ton_of_TNT</item>
+    </string-array>
+
+	<string-array name="flow">
+		<item>Cubic_foot_per_minute</item>
+		<item>Cubic_foot_per_second</item>
+		<item>Cubic_inch_per_minute</item>
+		<item>Cubic_inch_per_second</item>
+		<item>Cubic_metre_per_second</item>
+		<item>Gallon_per_day</item>
+		<item>Gallon_per_hour</item>
+		<item>Gallon_per_minute</item>
+		<item>Litre_per_minute</item>
+    </string-array>
+
+	<string-array name="force">
+		<item>Atomic_unit_of_force</item>
+		<item>Dyne</item>
+		<item>Grave_force</item>
+		<item>Gravet_force</item>
+		<item>Kilogram_force</item>
+		<item>KiloNewton</item>
+		<item>Kilopond</item>
+		<item>Kip</item>
+		<item>Long_ton_force</item>
+		<item>MegaNewton</item>
+		<item>Milligrave_force</item>
+		<item>Newton</item>
+		<item>Ounce_force</item>
+		<item>Pound_force</item>
+		<item>Poundal</item>
+		<item>Short_ton_force</item>
+		<item>Sthene</item>
+		<item>TonForceMetric</item>
+    </string-array>
+
+	<string-array name="frequency">
+		<item>Actions_per_minute</item>
+		<item>Cycle_per_second</item>
+		<item>Degree_per_second</item>
+		<item>Hertz</item>
+		<item>Radian_per_second</item>
+		<item>Revolutions_per_minute</item>
+    </string-array>
+
+	<string-array name="length">
+		<item>Aͦngström</item> 
+		<item>Astronomical_unit</item> 
+		<item>Attometre</item> 
+		<item>Barleycorn</item> 
+		<item>Bohr</item> 
+		<item>Cable_length</item> 
+		<item>Chain</item> 
+		<item>Cubit</item> 
+		<item>Ell</item> 
+		<item>Fathom</item> 
+		<item>Femtometre</item> 
+		<item>Fermi</item> 
+		<item>Finger</item> 
+		<item>Foot</item> 
+		<item>French</item> 
+		<item>Furlong</item> 
+		<item>Hand</item> 
+		<item>Inch</item> 
+		<item>League</item> 
+		<item>Light_day</item> 
+		<item>Light_hour</item> 
+		<item>Light_minute</item> 
+		<item>Light_second</item> 
+		<item>Light_year</item> 
+		<item>Line</item> 
+		<item>Link</item> 
+		<item>Metre</item> 
+		<item>Mickey</item> 
+		<item>Micrometre</item> 
+		<item>Mil</item> 
+		<item>Mile</item> 
+		<item>Nail</item> 
+		<item>Nanometre</item> 
+		<item>Nautical_league</item> 
+		<item>Nautical_mile</item> 
+		<item>Pace</item> 
+		<item>Palm</item> 
+		<item>Parsec</item> 
+		<item>Pica</item> 
+		<item>Picometre</item> 
+		<item>Point</item> 
+		<item>Quarter</item> 
+		<item>Rod</item> 
+		<item>Rope</item> 
+		<item>Shaku</item> 
+		<item>Span</item> 
+		<item>Spat</item> 
+		<item>Stick</item> 
+		<item>Toise</item> 
+		<item>Twip</item> 
+		<item>X_unit</item> 
+		<item>Yard</item> 
+		<item>Yoctometre</item> 
+		<item>Zeptometre</item>
+
+    </string-array>
+
+	<string-array name="mass">
+		<item>Atomic_mass_unit</item>
+		<item>Carat</item>
+		<item>Centigram</item>
+		<item>Decagram</item>
+		<item>Decigram</item>
+		<item>ElectronVolt</item>
+		<item>Gamma</item>
+		<item>Grain</item>
+		<item>Gram</item>
+		<item>Hectogram</item>
+		<item>Long_hundred_weight</item>
+		<item>Kilogram</item>
+		<item>LongTon</item>
+		<item>Megagram</item>
+		<item>MetricTonne</item>
+		<item>Microgram</item>
+		<item>Milligram</item>
+		<item>Mite</item>
+		<item>Ounce</item>
+		<item>PlanckMass</item>
+		<item>Poundal</item>
+		<item>Pound</item>
+		<item>PoundForce</item>
+		<item>Quintal</item>
+		<item>ShortTon</item>
+		<item>Slug</item>
+		<item>Stone</item>
+		<item>Short_hundred_weight</item>
+		<item>Talent</item>
+    </string-array>
+
+	<string-array name="power">
+		<item>Atmosphere_cubic_centimetre_per_minute</item>  
+		<item>Atmosphere_cubic_centimetre_per_second</item>  
+		<item>Atmosphere_cubic_foot_per_hour</item>   
+		<item>Atmosphere_cubic_foot_per_minute</item>  
+		<item>Atmosphere_cubic_foot_per_second</item> 
+		<item>BTU_per_hour</item>   
+		<item>BTU_per_minute</item>  
+		<item>BTU_per_second</item>  
+		<item>Calorie_per_second</item>  
+		<item>Erg_per_second</item>   
+		<item>Foot_pound_force_per_hour</item> 
+		<item>Foot_pound_force_per_minute</item>
+		<item>Foot_pound_force_per_second</item> 
+		<item>Horsepower</item>  
+		<item>Kilowatt</item>
+		<item>Litre_atmosphere_per_minute</item> 
+		<item>Litre_atmosphere_per_second</item>  
+		<item>Litre_micrometre_of_mercury_per_second</item>  
+		<item>Lusec</item>   
+		<item>Megawatt</item>
+		<item>Poncelet</item>   
+		<item>Square_foot_equivalent_direct_radiation</item>  
+		<item>Ton_of_air_conditioning</item>  
+		<item>Ton_of_refrigeration</item>   
+		<item>Watt</item>
+    </string-array>
+
+	<string-array name="pressure">
+		<item>Atmosphere</item>
+		<item>Bar</item>
+		<item>Barye</item>
+		<item>Centimetre_of_mercury</item>
+		<item>Centimetre_of_water</item>
+		<item>Foot_of_mercury</item>
+		<item>Foot_of_water</item>
+		<item>Inch_of_mercury</item>
+		<item>Inch_of_water</item>
+		<item>Kilogram_force_per_square_millimetre</item>
+		<item>Kip_per_square_inch</item>
+		<item>Long_ton_per_square_foot</item>
+		<item>Micrometre_of_mercury</item>
+		<item>Millimetre_of_mercury</item>
+		<item>Millimetre_of_water</item>
+		<item>Pascal</item>
+		<item>Pièze</item>
+		<item>Pound_per_square_foot</item>
+		<item>Pound_per_square_inch</item>
+		<item>Poundal_per_square_foot</item>
+		<item>Short_ton_per_square_foot</item>
+		<item>Torr</item>
+    </string-array>
+
+	<string-array name="speed">
+		<item>Atomic Mass Unit</item>
+		<item>Carat</item>
+		<item>Centigram</item>
+        <item>Decagram</item>
+		<item>Decigram</item>
+		<item>Electron Volt</item>
+		<item>Gamma</item>
+		<item>Grain</item>
+		<item>Hectogram</item>
+		<item>Kilogram</item>
+		<item>Megagram</item>
+		<item>Microgram</item>
+		<item>Milligram</item>
+		<item>Mite</item>
+		<item>Ounce</item>
+		<item>Poundal</item>
+		<item>Pounds</item>
+		<item>Pound-Force</item>
+		<item>Slug</item>
+		<item>Tonne</item>
+		<item>Talent</item>
+    </string-array>
+
+	<string-array name="temperature">
+		<item>Celsius</item>
+		<item>Delisle</item>
+		<item>Fahrenheit</item>
+		<item>Kelvin</item>
+		<item>Newton</item>
+		<item>Rankine</item>
+		<item>Réaumur</item>
+		<item>Regulo Gas Mark</item>
+		<item>Rømer</item>
+    </string-array>
+
+	<string-array name="time">
+		<item>Atomic Mass Unit</item>
+		<item>Carat</item>
+		<item>Centigram</item>
+        <item>Decagram</item>
+		<item>Decigram</item>
+		<item>Electron Volt</item>
+		<item>Gamma</item>
+		<item>Grain</item>
+		<item>Hectogram</item>
+		<item>Kilogram</item>
+		<item>Megagram</item>
+		<item>Microgram</item>
+		<item>Milligram</item>
+		<item>Mite</item>
+		<item>Ounce</item>
+		<item>Poundal</item>
+		<item>Pounds</item>
+		<item>Pound-Force</item>
+		<item>Slug</item>
+		<item>Tonne</item>
+		<item>Talent</item>
+    </string-array>
+
+	<string-array name="viscosity">
+		<item>Atomic Mass Unit</item>
+		<item>Carat</item>
+		<item>Centigram</item>
+        <item>Decagram</item>
+		<item>Decigram</item>
+		<item>Electron Volt</item>
+		<item>Gamma</item>
+		<item>Grain</item>
+		<item>Hectogram</item>
+		<item>Kilogram</item>
+		<item>Megagram</item>
+		<item>Microgram</item>
+		<item>Milligram</item>
+		<item>Mite</item>
+		<item>Ounce</item>
+		<item>Poundal</item>
+		<item>Pounds</item>
+		<item>Pound-Force</item>
+		<item>Slug</item>
+		<item>Tonne</item>
+		<item>Talent</item>
+    </string-array>
+
+	<string-array name="volume">
+		<item>Atomic Mass Unit</item>
+		<item>Carat</item>
+		<item>Centigram</item>
+        <item>Decagram</item>
+		<item>Decigram</item>
+		<item>Electron Volt</item>
+		<item>Gamma</item>
+		<item>Grain</item>
+		<item>Hectogram</item>
+		<item>Kilogram</item>
+		<item>Megagram</item>
+		<item>Microgram</item>
+		<item>Milligram</item>
+		<item>Mite</item>
+		<item>Ounce</item>
+		<item>Poundal</item>
+		<item>Pounds</item>
+		<item>Pound-Force</item>
+		<item>Slug</item>
+		<item>Tonne</item>
+		<item>Talent</item>
+    </string-array>
+
+	<string-array name="currencies">
+		<item>Atomic Mass Unit</item>
+		<item>Carat</item>
+		<item>Centigram</item>
+        <item>Decagram</item>
+		<item>Decigram</item>
+		<item>Electron Volt</item>
+		<item>Gamma</item>
+		<item>Grain</item>
+		<item>Hectogram</item>
+		<item>Kilogram</item>
+		<item>Megagram</item>
+		<item>Microgram</item>
+		<item>Milligram</item>
+		<item>Mite</item>
+		<item>Ounce</item>
+		<item>Poundal</item>
+		<item>Pounds</item>
+		<item>Pound-Force</item>
+		<item>Slug</item>
+		<item>Tonne</item>
+		<item>Talent</item>
+    </string-array>
+
+	<string-array name="app_activities">
+        <item>About</item>
+		<item>Gpa Calculator</item>
+		<item>Converter</item>
+		<item>Share</item>
+		<item>Logoff</item>
+		<item>Signout</item>
+		<item>New Note</item>
+		<item>Print Web Content</item>
+		<item>Browser</item>
+		<item>Blog Website</item>
+
+        <item>Pdf Create</item>
+        <item>Developer</item>
+        <item>FingerPaint</item>
+        <item>Help</item>
+		<item>Home</item>
+        <item>Quotes (Images)</item>
+        <item>Learn</item>
+        <item>List Dictionary</item>
+		<item>Profile Edit</item>
+		<item>Profile Info</item>
+		<item>Quiz</item>
+		<item>Pdf</item>
+		<item>Settings</item>
+		<item>Social</item>
+		<item>Quotes (Text)</item>
+		<item>Utilities</item>
+		<item>Note Write</item>
+    </string-array>
+
+</resources>

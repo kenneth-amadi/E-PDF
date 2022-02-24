@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/add_image"
+            android:icon="@drawable/ic_add"
+            android:title="add_image"/>
+
+        <item
+            android:id="@+id/add_text_image"
+            android:icon="@drawable/ic_picture_in_picture"
+            android:title="add_text_image"/>
+
+        <item
+            android:id="@+id/crop_image"
+            android:icon="@drawable/ic_crop_original"
+            android:title="crop_image"/>
+
+        <item
+            android:id="@+id/create_pdf"
+            android:icon="@drawable/ic_new"
+            android:title="create_pdf"/>
+    </group>
+</menu>
